@@ -95,7 +95,7 @@ const Roulette = ({ title, selectList }) => {
         <Grid item xs={6}>
           <Button
             variant="contained"
-            color="primary"
+            color="secondary"
             onClick={handleStop}
             disabled={!onSelect}
             fullWidth
